@@ -11,7 +11,7 @@ title                    : "Leidy Dorado-Munoz"
 title_separator          : "-"
 name                     : &name "Leidy Dorado-Munoz"
 description              : &description "personal description"
-url                      : http://localhost:4000 #https://leidydoradom.github.io/ the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://leidydoradom.github.io/ #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LeidyDoradoM.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -83,7 +83,7 @@ author:
   bio              : "PhD in Imaging Science"
   location         : "NYC area"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=XdP_ky8AAAAJ&hl=en"
   email            : "doradoleidypao@gmail.com"
   uri              :
   bitbucket        :
@@ -97,8 +97,8 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/LeidyDoradoM"
+  linkedin         : https://www.linkedin.com/in/leidy-dorado-munoz-2a1bb7b8/
+  #orcid            : "http://orcid.org/LeidyDoradoM"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -204,14 +204,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-#  - scope:
-#      path: ""
-#      type: teaching
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      comments: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -222,22 +222,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-#  - scope:
-#      path: ""
-#      type: portfolio
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      comment: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
-#  - scope:
-#      path: ""
-#      type: talks
-#    values:
-#      layout: talk
-#      author_profile: true
-#      share: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
