@@ -19,5 +19,4 @@ the extension was focused on the the vector nature of the hyperspectral imaging 
 
 * Gough map processing.  During my time as Postdoctoral researcher, I have been working on the application of different graph theory techniques in the processing of ancient docuements such as the famous Gough map of Great Britain dated to the end of 14th century.
 
-In general, I have focussed on the exploitation of hyperspectral data by using novel mathematical models such as manifold learning methods or differential equations.  These methods are nowdays widely used in other areas like data mining.  
-
+In general, I have been focussed on the exploitation of hyperspectral data by using novel mathematical methods such as manifold learning and graph theory-based models.  Nowdays I am interested in the extension of the use of these methods in the Data Science area. I think that given these mathematical methods allow to model high-dimensional/ complex data, their application could be extended to handle all kind of data besides images.
